@@ -27,9 +27,17 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/fonts.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/core.min.js",
+              "src/assets/js/script.js",
+              "src/assets/js/html5shiv.min.js",
+              "src/assets/js/pointer-events.min.js"
+            ]
           },
           "configurations": {
             "production": {
