@@ -23,14 +23,14 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
-              }
+                "input": "src/assets",
+                "output": "/assets"
+              },
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/css/bootstrap.css",
-              "src/assets/css/fonts.css",
-              "src/assets/css/style.css"
+              "src/styles.css"
             ],
             "scripts": [
               "src/assets/js/core.min.js",

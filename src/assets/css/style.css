@@ -934,7 +934,7 @@ section {
 		background: linear-gradient(to right, #2c20c0 20%, #ffa900 40%, #ffec17 60%, #2c20c0 80%);
 		background-size: 200% auto;
 		background-clip: text;
-		text-fill-color: transparent;
+		color: transparent;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -4008,7 +4008,7 @@ input:-webkit-autofill ~ .form-validation {
 	background-image: none;
 	border: 0px solid #f7f7f7;
 	border-radius: 35px;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 }
 
 .form-input:focus {
@@ -4928,7 +4928,7 @@ textarea.form-input.form-input-lg {
 	display: inline-block;
 	font-weight: 400;
 	font-style: normal;
-	speak: none;
+	/* speak: none; */
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -6134,7 +6134,7 @@ textarea.form-input.form-input-lg {
 
 .snackbars-right {
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	text-transform: uppercase;
 }
 
@@ -10134,7 +10134,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 
 .owl-carousel .owl-stage {
 	position: relative;
-	-ms-touch-action: pan-Y;
+	/* -ms-touch-action: pan-Y; */
 }
 
 .owl-carousel .owl-stage:after {
@@ -10150,7 +10150,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 	overflow: hidden;
 	/* fix for flashing background */
-	-webkit-transform: translate3d(0px, 0px, 0px);
+	/* -webkit-transform: translate3d(0px, 0px, 0px); */
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev,
@@ -10583,7 +10583,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .rd-navbar, .rd-navbar.rd-navbar--is-clone {
-	display: none;
+	display: block;
 }
 
 .rd-navbar-fixed,
@@ -10665,7 +10665,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 * Navbar components
 */
 .rd-navbar {
-	display: none;
+	display: block;
 	background: #ffffff;
 }
 
@@ -14053,11 +14053,11 @@ html.tablet .ui-to-top {
 	/**
   * Vertical tabs
   */
-	.tabs-vertical {
-		/**
-    *  Tabs buttons
-    */
-	}
+	/* .tabs-vertical {
+		
+      Tabs buttons
+    
+	} */
 }
 
 @media (min-width: 992px) {
@@ -14398,10 +14398,9 @@ html.tablet .ui-to-top {
 }
 
 /* Coverflow */
-.swiper-container-coverflow .swiper-wrapper {
-	/* Windows 8 IE 10 fix */
+/* .swiper-container-coverflow .swiper-wrapper {
 	-ms-perspective: 1200px;
-}
+} */
 
 /* Fade */
 .swiper-container-fade.swiper-container-free-mode .swiper-slide {
@@ -14475,7 +14474,7 @@ html.tablet .ui-to-top {
 /* Scrollbar */
 .swiper-scrollbar {
 	position: relative;
-	-ms-touch-action: none;
+	/* -ms-touch-action: none; */
 }
 
 .swiper-container-horizontal > .swiper-scrollbar {
@@ -15550,7 +15549,7 @@ html.tablet .ui-to-top {
 
 .lg-icon {
 	font-family: 'lg';
-	speak: none;
+	/* speak: none; */
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -17963,7 +17962,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	padding-left: 55px;
 	padding-right: 55px;
 	text-align: center;
-	-moz-appearance: textfield;
+	/* -moz-appearance: textfield; */
 }
 
 .shop-input .stepper {
